@@ -210,13 +210,29 @@
             <div class="form-container">
                 <h3 style="color: var(--primary-green); margin-bottom: 30px;">Fill out the form to register</h3>
                 
-                <!-- Replace with your actual Google Form embed -->
-                <div style="min-height: 400px; display: flex; align-items: center; justify-content: center; background: var(--bg-light); border-radius: 10px; padding: 40px;">
-                    <div style="text-align: center;">
-                        <p style="font-size: 1.2rem; margin-bottom: 20px;">Google Form will be embedded here</p>
-                        <a href="https://forms.google.com" target="_blank" class="cta-button">Open Registration Form</a>
-                        <p style="margin-top: 20px; color: var(--text-gray); font-size: 0.9rem;">Replace with your actual Google Form link</p>
-                    </div>
+                <!-- Google Form Embedded -->
+                <div style="background: var(--bg-light); border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+                    <iframe 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScvt-TGu8PPU3oF_4BebcUnUWivDT2MFXl6oNXmmcF_JpNxpg/viewform?embedded=true" 
+                        width="100%" 
+                        height="1400" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0"
+                        style="border: 0; border-radius: 10px;">
+                        Loading registration form...
+                    </iframe>
+                </div>
+
+                <div style="text-align: center; padding: 20px; background: white; border-radius: 10px; margin-top: 15px;">
+                    <p style="color: var(--text-gray); margin-bottom: 15px; font-size: 1rem;">
+                        <strong>Can't see the form above?</strong>
+                    </p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScvt-TGu8PPU3oF_4BebcUnUWivDT2MFXl6oNXmmcF_JpNxpg/viewform" 
+                       target="_blank" 
+                       class="cta-button">
+                        📝 Open Form in New Tab
+                    </a>
                 </div>
                 
                 <div style="margin-top: 30px; padding: 20px; background: #fff3cd; border-radius: 10px; border-left: 4px solid var(--cta-orange);">
